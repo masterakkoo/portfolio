@@ -1,0 +1,14 @@
+.slide-card{
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    /* background-color: blanchedalmond; */
+    box-shadow: #bcb0b0 0px -1px 6px 0px;
+    text-align: center;
+}
+.slide-card img{
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+}

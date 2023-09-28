@@ -1,0 +1,155 @@
+#about {
+    transition: opacity 0.4s ease-out;
+}
+
+#abt {
+    /* position: absolute; */
+    /* height: 900px; */
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px;
+    background-image: linear-gradient( rgb(60, 50, 50), rgb(0, 0, 0));
+}
+
+.photo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.photo img {
+    width: 400px;
+    border-radius: 50%;
+    height: 400px;
+    transition: transform .4s;
+
+}
+
+.photo img:hover {
+    transform: scale(1.2);
+}
+
+.info2 {
+    display: flex;
+    align-items: center;
+    /* padding-left: 50px; */
+    width: 100%;
+
+}
+
+.info2 p {
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info2 h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 0px 5px 5px black;
+}
+
+.info2 .know img {
+    height: 200px;
+    width: 200px;
+}
+
+.know {
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    border-radius: 10px;
+    /* box-shadow: 0px 10px 10px brown; */
+    transition: transform .4s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.know:hover {
+    transform: scale(1.03);
+}
+
+.know img {
+
+    height: 150px;
+    width: 150px;
+}
+
+.cv {
+    margin-top: 60px;
+}
+
+.cv button {
+    border: 2px sold black;
+    width: 150px;
+    height: 40px;
+    transition: transform .4s;
+    /* box-shadow: 0px 10px 10px brown; */
+    font-weight: 800;
+}
+
+.cv button:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1000px) {
+    #abt {
+        margin-top: -1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .photo img {
+        width: 200px;
+        border-radius: 50%;
+        height: 200px;
+        transition: transform .4s;
+
+    }
+
+    .av {
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .photo {
+        width: 40%;
+        height: 50%;
+    }
+    .av p{
+        font-size: 10px;
+    }
+    .av span{
+        font-size: 2rem;
+    }
+    .info2 {
+        width: 70%;
+    }
+
+    .info2 h1 {
+        font-size: 2rem;
+    }
+
+    .info2 .know img {
+        height: 100px;
+        width: 100px;
+    }
+
+
+    .know img {
+        height: 100px;
+        width: 100px;
+    }
+}

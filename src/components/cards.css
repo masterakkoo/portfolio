@@ -1,0 +1,13 @@
+.card {
+    /* opacity: 0; */
+    display: flex;
+    transition: opacity 1s linear 2s;
+}
+
+.op1 {
+    opacity: 1;
+}
+
+.op2 {
+    opacity: 0;
+}

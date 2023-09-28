@@ -1,0 +1,129 @@
+#main {
+
+    display: flex;
+    height: 90vh;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    margin-top: -10px;
+    /* margin-left: 40px;
+    margin-right: 50px; */
+    color: white;
+    /* padding-top: 10px; */
+    background-image: linear-gradient(to top, rgb(60, 50, 50), rgb(0, 0, 0));
+}
+
+
+#main .sone img {
+    border-radius: 50%;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    transition: transform .4s;
+}
+
+#main .sone img:hover {
+    transform: scale(1.2);
+}
+
+#main .in {
+    margin-top: 50px;
+}
+
+#main .in span {
+    color: #c0ff12;
+    font-size: 3rem;
+    text-shadow: 2px 5px 5px black;
+}
+
+.pr {
+    height: 80px;
+    width: 200px;
+    /* background-color: rgb(134, 112, 112); */
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.pr img {
+    margin: 10px;
+    width: 20px;
+    height: 18px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    transition: transform .4s;
+
+}
+
+.pr img:hover {
+    transform: scale(1.2);
+}
+
+#about {
+    transition: opacity 0.4s ease-out;
+}
+
+#abt {
+ 
+    display: flex;
+    flex-direction: row-reverse;
+ 
+}
+
+.photo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.photo img {
+    width: 400px;
+    border-radius: 50%;
+    height: 400px;
+    transition: transform .4s;
+
+}
+
+.photo img:hover {
+    transform: scale(1.2);
+}
+@media screen and (max-width: 1300px) {
+
+    #main .sone img {
+        margin: 0px;
+        height: 220px;
+        width: 220px;
+    }
+
+    .info p {
+        font-size: 13px;
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 1000px) {
+   
+    #main {
+        padding: 10px;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #main .sone img {
+        margin: 0px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .info p {
+        font-size: 10px;
+        margin: 5px;
+    }
+}
